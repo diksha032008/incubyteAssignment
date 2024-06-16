@@ -24,8 +24,9 @@ public class StringCalculator {
       int number = Integer.parseInt(token);
       if (number < 0) {
         negatives.add(number);
+      } else if (number <= 1000) {
+        sum += number;
       }
-      sum += number;
     }
 
     if (!negatives.isEmpty()) {
