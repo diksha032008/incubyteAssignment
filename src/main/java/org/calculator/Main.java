@@ -8,5 +8,6 @@ public class Main {
     System.out.println(calculator.add("1"));
     System.out.println(calculator.add("1,2"));
     System.out.println(calculator.add("1\n2,3"));
+    System.out.println(calculator.add("//;\n1;2"));
   }
 }
